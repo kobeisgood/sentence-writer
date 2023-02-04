@@ -24,6 +24,7 @@
 		sentence = sentence.replace(/’/g, "'");
         sentence = sentence.replace(/‘/g, "'");
 		sentence = sentence.replace('—', '-');
+		sentence = sentence.replace(/\s{2,}/g, ' ');
 		words = sentence.split(' ');
 	}
 
