@@ -40,6 +40,10 @@ You can preview the production build with `npm run preview`.
 
 ## Staring the project
 
+Prerequisites:
+- Node.js
+- npm 
+
 Clone the project and run the following commands:
 
 ```bash
